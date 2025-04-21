@@ -50,8 +50,6 @@ cd projeto-integrador
 
 **Gravação:**  
 Pelo ambiente do VScode compile e execute na placa de desnvovimento BitDogLab
-Ou
-Conecte o RP2040 no modo BOOTSEL e copie o `.uf2` gerado na pasta `build` para a unidade montada.
 
 ## 📂 Estrutura do Código  
 
