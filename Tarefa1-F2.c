@@ -61,7 +61,7 @@ void desligar_matriz() {
 
 // Verifica se o quadrado está próximo das bordas
 bool verificar_borda() {
-    bool borda = pos_x <= 5 || pos_x + square_size >= 50 ||
+    bool borda = pos_x <= 5 || pos_x + square_size >= 55 ||
                  pos_y <= 5 || pos_y + square_size >= 120;
     if (borda) {
         printf(" Atingiu a borda!\n");   // Log para debug
