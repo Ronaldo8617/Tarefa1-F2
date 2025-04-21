@@ -108,10 +108,11 @@ int main() {
         } else {                         // Se sistema travado
             buzzer_stop(BUZZER_PIN);     // Mantém alertas desligados
             desligar_matriz();
+            pwm_set_gpio_level(red, 0);
         }
 
         printf("Posição X: %d, Posição Y: %d\n", pos_x, pos_y);  // Debug
-        sleep_ms(200);                   // Delay para evitar flicker
+        sleep_ms(100);                   // Delay para evitar flicker
     }
 
     return 0;
